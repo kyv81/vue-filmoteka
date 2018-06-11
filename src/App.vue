@@ -11,7 +11,6 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav">
                 <router-link to="/" class="nav-item nav-link">Фильмы</router-link>
-                <router-link to="/new" class="nav-item nav-link">Новинки</router-link>
                 <router-link to="/actors" class="nav-item nav-link">Актеры</router-link>
               </div>
             </div>

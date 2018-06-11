@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import FilmsList from '@/components/FilmsList'
-import FilmsNew from '@/components/FilmsNew'
 import Film from '@/components/Film'
 import ActorsList from '@/components/ActorsList'
 import Actor from '@/components/Actor'
@@ -14,11 +13,6 @@ export default new Router({
       path: '/',
       name: 'FilmsList',
       component: FilmsList
-    },
-    {
-      path: '/new',
-      name: 'FilmsNew',
-      component: FilmsNew
     },
     {
       path: '/films/:id',
